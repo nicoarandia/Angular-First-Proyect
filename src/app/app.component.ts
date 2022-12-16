@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'HolaMundo';
+  usuario = '@Nicolas';
+
+  /*Esta funcion se ejecutara cuando en el Hijo (Saludo Component) se pulse un boton */
+
+  recibirMensajeDelHijo(evento:String){
+    alert(evento)
+  }
+
 }
